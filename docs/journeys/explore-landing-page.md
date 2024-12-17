@@ -7,12 +7,12 @@ Learn about ZAPT.AI and how it can help turn your ideas into real tech products 
 1. **Visit the Landing Page**
 
    - Open your web browser and navigate to the ZAPT.AI landing page.
-   - You will see the ZAPT.AI logo and a welcoming interface.
+   - You will see the ZAPT logo and a welcoming interface.
 
-2. **Read the Mission Statement**
+2. **Read the Hero Section**
 
-   - In the center of the page, you'll find a heading that says "Turn ideas into real tech products without coding".
-   - Below the heading, read about how ZAPT uses AI to let users create apps just by describing their ideas in plain English.
+   - At the top of the page, you'll find a heading that says "Create apps in minutes - no coding required".
+   - Below the heading, you'll see visually appealing sections highlighting key features such as "AI-Powered Development" and "No Technical Skills Required".
 
 3. **Navigate the Page**
 

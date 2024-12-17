@@ -1,6 +1,6 @@
 # ZAPT.AI Landing Page
 
-Welcome to the ZAPT.AI landing page. This app serves as the entry point for users to learn about ZAPT and get started on turning their ideas into real tech products without coding.
+Welcome to the ZAPT.AI landing page. This app serves as the entry point for users to learn about ZAPT and get started on creating apps in minutes without coding.
 
 ## User Journeys
 

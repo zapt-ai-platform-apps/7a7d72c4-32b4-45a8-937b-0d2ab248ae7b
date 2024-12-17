@@ -2,9 +2,13 @@ import { createSignal } from 'solid-js';
 
 export default function App() {
   return (
-    <div class="min-h-screen bg-dark-navy text-white font-poppins flex flex-col">
+    <div class="min-h-screen bg-dark-navy text-white font-poppins flex flex-col bg-[url('https://supabase.zapt.ai/storage/v1/object/public/zapt-branding/zapt_hero_background.png')] bg-cover bg-center">
       <header class="flex items-center justify-between p-6">
-        <h1 class="text-4xl font-semibold text-neon-yellow">ZAPT.AI</h1>
+        <img
+          src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/7a7d72c4-32b4-45a8-937b-0d2ab248ae7b/95f5ce22-ae3f-4ad8-af77-d0c3884ee556.png?width=512&height=512"
+          alt="ZAPT Logo"
+          class="h-10 cursor-pointer"
+        />
         <nav>
           <a
             href="https://home.zapt.ai/"
@@ -16,13 +20,24 @@ export default function App() {
         </nav>
       </header>
 
-      <main class="flex flex-col items-center justify-center flex-grow px-6 bg-[url('https://supabase.zapt.ai/storage/v1/object/public/zapt-branding/zapt_hero_background.png')] bg-cover bg-center">
+      <main class="flex flex-col items-center justify-center flex-grow px-6">
         <h2 class="text-5xl font-semibold text-center mb-6">
-          Turn ideas into real tech products without coding
+          Create apps in minutes - no coding required
         </h2>
-        <p class="text-xl text-center max-w-2xl mb-8">
-          Using AI, our platform lets users create apps just by describing their ideas in plain English. Users simply tell ZAPT what they want to create, and our platform handles all the technical complexity automatically - like databases, user accounts, and payment systems. We use the latest AI models and we give it the entire codebase every time the user requests an update.
-        </p>
+        <div class="max-w-4xl text-center grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <div>
+            <h3 class="text-2xl font-semibold mb-4">AI-Powered Development</h3>
+            <p class="text-lg">
+              Using AI, our platform lets users create apps just by describing their ideas in plain English.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-2xl font-semibold mb-4">No Technical Skills Required</h3>
+            <p class="text-lg">
+              Users simply tell ZAPT what they want to create, and our platform handles all the technical complexity automatically—like databases, user accounts, and payment systems.
+            </p>
+          </div>
+        </div>
         <a
           href="https://home.zapt.ai/"
           class="bg-neon-yellow text-dark-navy font-semibold py-4 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer"
