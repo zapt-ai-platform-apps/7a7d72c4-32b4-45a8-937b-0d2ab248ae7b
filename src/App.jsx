@@ -5,7 +5,7 @@ import FeaturesSection from './components/FeaturesSection';
 
 export default function App() {
   return (
-    <div class="min-h-screen flex flex-col font-poppins text-white">
+    <div class="min-h-screen flex flex-col font-poppins text-light-gray">
       <NavigationMenu />
 
       <HeroSection />
@@ -17,7 +17,7 @@ export default function App() {
           href="https://www.zapt.ai"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-white hover:text-neon-yellow transition-colors"
+          class="text-light-gray hover:text-neon-yellow transition-colors"
         >
           Made on ZAPT
         </a>

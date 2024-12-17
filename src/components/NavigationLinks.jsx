@@ -4,7 +4,7 @@ export default function NavigationLinks(props) {
       <li>
         <a
           href="https://home.zapt.ai/"
-          class="text-white hover:text-neon-yellow transition-colors cursor-pointer"
+          class="text-light-gray hover:text-neon-yellow transition-colors cursor-pointer"
           onClick={() => {
             if (props.onLinkClick) props.onLinkClick();
             console.log('Login / Sign Up link clicked');

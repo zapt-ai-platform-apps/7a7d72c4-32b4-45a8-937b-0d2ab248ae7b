@@ -13,14 +13,14 @@ export default function NavigationMenu() {
 
   return (
     <nav class="relative" aria-label="Main Navigation">
-      <div class="flex items-center justify-between p-6">
+      <div class="flex items-center justify-between p-6 bg-dark-navy">
         <img
           src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/7a7d72c4-32b4-45a8-937b-0d2ab248ae7b/95f5ce22-ae3f-4ad8-af77-d0c3884ee556.png?width=512&height=512"
           alt="ZAPT Logo"
           class="h-10 cursor-pointer"
         />
         <button
-          class="text-white md:hidden focus:outline-none"
+          class="text-light-gray md:hidden focus:outline-none cursor-pointer"
           aria-label="Toggle navigation menu"
           aria-expanded={isOpen() ? 'true' : 'false'}
           onClick={toggleMenu}
@@ -35,7 +35,7 @@ export default function NavigationMenu() {
       </div>
       <div class={`md:hidden ${isOpen() ? 'block' : 'hidden'}`}>
         <ul
-          class="absolute top-full left-0 w-full bg-dark-navy text-white flex flex-col items-center space-y-4 py-4"
+          class="absolute top-full left-0 w-full bg-dark-navy text-light-gray flex flex-col items-center space-y-4 py-4"
           role="menu"
         >
           <NavigationLinks onLinkClick={() => setIsOpen(false)} />
