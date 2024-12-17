@@ -1,4 +1,4 @@
-import { LightBulbIcon, UsersIcon } from 'solid-heroicons/solid';
+import { lightBulb, users } from 'solid-heroicons/solid';
 import { Icon } from 'solid-heroicons';
 
 export default function FeaturesSection() {
@@ -13,7 +13,7 @@ export default function FeaturesSection() {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div class="flex flex-col items-center">
             <div class="w-24 h-24 mb-6 flex items-center justify-center bg-purple-custom rounded-full">
-              <Icon path={LightBulbIcon} class="w-12 h-12 text-neon-yellow" />
+              <Icon path={lightBulb} class="w-12 h-12 text-neon-yellow" />
             </div>
             <h3 class="text-2xl font-semibold mb-4 text-center">AI-Powered Development</h3>
             <p class="text-lg text-center">
@@ -22,7 +22,7 @@ export default function FeaturesSection() {
           </div>
           <div class="flex flex-col items-center">
             <div class="w-24 h-24 mb-6 flex items-center justify-center bg-purple-custom rounded-full">
-              <Icon path={UsersIcon} class="w-12 h-12 text-neon-yellow" />
+              <Icon path={users} class="w-12 h-12 text-neon-yellow" />
             </div>
             <h3 class="text-2xl font-semibold mb-4 text-center">No Technical Skills Required</h3>
             <p class="text-lg text-center">
