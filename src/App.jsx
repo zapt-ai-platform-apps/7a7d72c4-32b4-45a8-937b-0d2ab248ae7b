@@ -1,13 +1,9 @@
-import { createSignal } from 'solid-js';
-import NavigationMenu from './components/NavigationMenu';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 
 export default function App() {
   return (
     <div class="min-h-screen flex flex-col font-poppins text-light-gray">
-      <NavigationMenu />
-
       <HeroSection />
 
       <FeaturesSection />
