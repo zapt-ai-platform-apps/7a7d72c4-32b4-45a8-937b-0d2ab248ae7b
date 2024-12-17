@@ -16,7 +16,7 @@ export default function App() {
         </nav>
       </header>
 
-      <main class="flex flex-col items-center justify-center flex-grow px-6">
+      <main class="flex flex-col items-center justify-center flex-grow px-6 bg-[url('https://supabase.zapt.ai/storage/v1/object/public/zapt-branding/zapt_hero_background.png')] bg-cover bg-center">
         <h2 class="text-5xl font-semibold text-center mb-6">
           Turn ideas into real tech products without coding
         </h2>
