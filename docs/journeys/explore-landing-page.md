@@ -12,18 +12,31 @@ Learn about ZAPT.AI and how it can help turn your ideas into real tech products 
 2. **Read the Hero Section**
 
    - At the top of the page, you'll find a heading that says "Create apps in minutes - no coding required".
-   - Below the heading, you'll see visually appealing sections highlighting key features such as "AI-Powered Development" and "No Technical Skills Required".
+   - Below the heading, there's a "Get Started" button prominently displayed.
+   - The background features a vibrant image representing innovation and technology.
 
-3. **Navigate the Page**
+3. **Explore the Features Section**
 
-   - Explore the content on the page to learn more about ZAPT's features and benefits.
-   - The design is responsive, so it looks great on both desktop and mobile devices.
+   - Scroll down to the "Why Choose ZAPT?" section.
+   - This section highlights key features of the platform in an elegant layout.
+   - For each feature:
+     - You'll see an illustrative image.
+     - A feature title, such as "AI-Powered Development" or "No Technical Skills Required".
+     - A brief description explaining the feature.
+   - The images and text are arranged to provide a visually engaging experience.
 
-4. **Made on ZAPT Badge**
+4. **Responsive Design**
+
+   - Resize your browser window or view the page on a mobile device.
+   - Notice how the layout adjusts seamlessly for different screen sizes.
+   - The content remains readable and visually appealing across devices.
+
+5. **Made on ZAPT Badge**
 
    - At the bottom of the page, you'll find a "Made on ZAPT" badge linking back to [www.zapt.ai](https://www.zapt.ai).
-   - This badge is a testament to the capabilities of the ZAPT platform.
+   - This badge showcases the capabilities of the ZAPT platform.
 
 ## Additional Information
 
-- Feel free to revisit the landing page anytime to get updates on new features and announcements.
+- The landing page is designed to be both informative and visually engaging, embodying the spirit of a modern tech startup.
+- All navigation and interactive elements are accessible and user-friendly.
