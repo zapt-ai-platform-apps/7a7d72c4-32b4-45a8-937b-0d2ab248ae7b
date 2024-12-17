@@ -1,24 +1,10 @@
 import { createSignal } from 'solid-js';
+import NavigationMenu from './components/NavigationMenu';
 
 export default function App() {
   return (
     <div class="min-h-screen bg-dark-navy text-white font-poppins flex flex-col bg-[url('https://supabase.zapt.ai/storage/v1/object/public/zapt-branding/zapt_hero_background.png')] bg-cover bg-center">
-      <header class="flex items-center justify-between p-6">
-        <img
-          src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/7a7d72c4-32b4-45a8-937b-0d2ab248ae7b/95f5ce22-ae3f-4ad8-af77-d0c3884ee556.png?width=512&height=512"
-          alt="ZAPT Logo"
-          class="h-10 cursor-pointer"
-        />
-        <nav>
-          <a
-            href="https://home.zapt.ai/"
-            class="text-white hover:text-neon-yellow transition-colors cursor-pointer"
-            onClick={() => console.log('Login / Sign Up link clicked')}
-          >
-            Login / Sign Up
-          </a>
-        </nav>
-      </header>
+      <NavigationMenu />
 
       <main class="flex flex-col items-center justify-center flex-grow px-6">
         <h2 class="text-5xl font-semibold text-center mb-6">
