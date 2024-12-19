@@ -9,28 +9,14 @@ export default function FooterNavigation() {
           target="_blank"
           class="text-light-gray hover:text-neon-yellow transition duration-300"
         >
-          <FaLinkedinIn size={24} class="text-current" />
+          <FaBrandsLinkedinIn size={24} class="text-current" />
         </a>
         <a
           href="https://twitter.com/zapt_ai"
           target="_blank"
           class="text-light-gray hover:text-neon-yellow transition duration-300"
         >
-          <FaTwitter size={24} class="text-current" />
-        </a>
-        <a
-          href="https://www.reddit.com/r/ZAPT/"
-          target="_blank"
-          class="text-light-gray hover:text-neon-yellow transition duration-300"
-        >
-          <FaRedditAlien size={24} class="text-current" />
-        </a>
-        <a
-          href="https://discord.gg/KwzvM7P7Xw"
-          target="_blank"
-          class="text-light-gray hover:text-neon-yellow transition duration-300"
-        >
-          <FaDiscord size={24} class="text-current" />
+          <FaBrandsTwitter size={24} class="text-current" />
         </a>
       </div>
       <a
