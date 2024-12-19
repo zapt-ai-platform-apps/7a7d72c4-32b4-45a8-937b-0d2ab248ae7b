@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaTwitter, FaRedditAlien, FaDiscord } from 'solid-icons/fa';
+import { FaBrandsLinkedinIn, FaBrandsTwitter } from 'solid-icons/fa';
 
 export default function FooterNavigation() {
   return (
