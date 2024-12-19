@@ -12,7 +12,7 @@ export default function FeaturesSection() {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div class="flex flex-col items-center">
             <div class="w-24 h-24 mb-6 flex items-center justify-center bg-purple-custom rounded-full">
-              <FaLightbulb size={48} class="text-neon-yellow" />
+              <FaSolidLightbulb size={48} class="text-neon-yellow" />
             </div>
             <h3 class="text-2xl font-semibold mb-4 text-center">AI-Powered Development</h3>
             <p class="text-lg text-center">
@@ -21,7 +21,7 @@ export default function FeaturesSection() {
           </div>
           <div class="flex flex-col items-center">
             <div class="w-24 h-24 mb-6 flex items-center justify-center bg-purple-custom rounded-full">
-              <FaUsers size={48} class="text-neon-yellow" />
+              <FaSolidUsers size={48} class="text-neon-yellow" />
             </div>
             <h3 class="text-2xl font-semibold mb-4 text-center">No Technical Skills Required</h3>
             <p class="text-lg text-center">
