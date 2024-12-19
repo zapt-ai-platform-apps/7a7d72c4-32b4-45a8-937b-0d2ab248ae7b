@@ -1,3 +1,5 @@
+import { FaLinkedinIn, FaTwitter, FaRedditAlien, FaDiscord } from 'solid-icons/fa';
+
 export default function FooterNavigation() {
   return (
     <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
@@ -7,28 +9,28 @@ export default function FooterNavigation() {
           target="_blank"
           class="text-light-gray hover:text-neon-yellow transition duration-300"
         >
-          <i class="fab fa-linkedin-in fa-lg"></i>
+          <FaLinkedinIn size={24} />
         </a>
         <a
           href="https://twitter.com/zapt_ai"
           target="_blank"
           class="text-light-gray hover:text-neon-yellow transition duration-300"
         >
-          <i class="fab fa-twitter fa-lg"></i>
+          <FaTwitter size={24} />
         </a>
         <a
           href="https://www.reddit.com/r/ZAPT/"
           target="_blank"
           class="text-light-gray hover:text-neon-yellow transition duration-300"
         >
-          <i class="fab fa-reddit fa-lg"></i>
+          <FaRedditAlien size={24} />
         </a>
         <a
           href="https://discord.gg/KwzvM7P7Xw"
           target="_blank"
           class="text-light-gray hover:text-neon-yellow transition duration-300"
         >
-          <i class="fab fa-discord fa-lg"></i>
+          <FaDiscord size={24} />
         </a>
       </div>
       <a
