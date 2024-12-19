@@ -1,4 +1,4 @@
-import { FaLightbulb, FaUsers } from 'solid-icons/fa';
+import { FaSolidLightbulb, FaSolidUsers } from 'solid-icons/fa';
 
 export default function FeaturesSection() {
   return (
