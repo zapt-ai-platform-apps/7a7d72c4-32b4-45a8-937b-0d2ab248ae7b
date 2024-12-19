@@ -7,47 +7,13 @@ Welcome to the ZAPT.AI landing page. This app serves as the entry point for user
 1. [Explore the Landing Page](docs/journeys/explore-landing-page.md) - Discover the features of ZAPT.AI and how to get started quickly.
 2. [Get Started with ZAPT](docs/journeys/get-started.md) - Begin your journey with ZAPT by signing up or logging in.
 3. [Navigate the App](docs/journeys/navigate-the-app.md) - Explore the accessible and responsive navigation elements.
+4. [Learn About Pricing and Technology](docs/journeys/learn-about-pricing-and-technology.md) - Understand our pay-as-you-go model and the technology powering ZAPT.
 
 ---
 
 ## Design Guidelines
 
-### Color Palette
-
-- **Primary Colors:**
-  - Dark Navy: `#060F38`
-  - Charcoal Gray: `#1C1C1C`
-- **Accent Colors:**
-  - Neon Yellow: `#CBFF2E`
-  - Purple Custom: `#763BEA`
-- **Text Colors:**
-  - Light Gray: `#F5F5F5`
-  - Muted White: `#E0E0E0`
-
-### Typography
-
-- **Font Family:** Poppins, sans-serif
-- **Headings:**
-  - Font Weight: 600-700
-  - Sizes: 2xl, 4xl
-- **Body Text:**
-  - Font Weight: 400-500
-  - Sizes: base, lg
-
-### Spacing
-
-- **Padding:** Utilize a base unit of 16px (`px-4`, `py-4`)
-- **Margins:** Consistent spacing between sections and elements to ensure a clean layout
-
-### Component Styles
-
-- **Buttons:**
-  - Background: Neon Yellow (`bg-neon-yellow`)
-  - Text: Dark Navy (`text-dark-navy`)
-  - Hover: Purple Custom (`hover:bg-purple-custom`)
-- **Navigation:**
-  - Background: Dark Navy (`bg-dark-navy`)
-  - Text: Light Gray (`text-light-gray`)
+Detailed design guidelines are available [here](docs/design-guidelines.md).
 
 ---
 
@@ -61,10 +27,10 @@ To run this app, you need to set the following environment variables:
 
 Set these variables in a `.env` file at the root of the project.
 
+---
+
 ## External Services
 
 - **Sentry**: Used for error logging and monitoring.
 - **Umami Analytics**: Used for tracking website analytics.
 - **Progressier**: Used for adding PWA functionality to the app.
-
----
