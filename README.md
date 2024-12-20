@@ -5,9 +5,10 @@ Welcome to the ZAPT.AI landing page. This app serves as the entry point for user
 ## User Journeys
 
 1. [Explore the Landing Page](docs/journeys/explore-landing-page.md) - Discover the features of ZAPT.AI and how to get started quickly.
-2. [Get Started with ZAPT](docs/journeys/get-started.md) - Begin your journey with ZAPT by signing up or logging in.
-3. [Navigate the App](docs/journeys/navigate-the-app.md) - Explore the accessible and responsive navigation elements.
-4. [Learn About Pricing and Technology](docs/journeys/learn-about-pricing-and-technology.md) - Understand our pay-as-you-go model and the technology powering ZAPT.
+2. [View Testimonials](docs/journeys/view-testimonials.md) - Read feedback from our satisfied users who have transformed their ideas with ZAPT.AI.
+3. [Get Started with ZAPT](docs/journeys/get-started.md) - Begin your journey with ZAPT by signing up or logging in.
+4. [Navigate the App](docs/journeys/navigate-the-app.md) - Explore the accessible and responsive navigation elements.
+5. [Learn About Pricing and Technology](docs/journeys/learn-about-pricing-and-technology.md) - Understand our pay-as-you-go model and the technology powering ZAPT.
 
 ---
 
