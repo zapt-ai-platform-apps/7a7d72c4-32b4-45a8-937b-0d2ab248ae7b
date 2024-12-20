@@ -9,6 +9,7 @@ Welcome to the ZAPT.AI landing page. This app serves as the entry point for user
 3. [Get Started with ZAPT](docs/journeys/get-started.md) - Begin your journey with ZAPT by signing up or logging in.
 4. [Navigate the App](docs/journeys/navigate-the-app.md) - Explore the accessible and responsive navigation elements.
 5. [Learn About Pricing and Technology](docs/journeys/learn-about-pricing-and-technology.md) - Understand our pay-as-you-go model and the technology powering ZAPT.
+6. [Toggle Theme](docs/journeys/toggle-theme.md) - Switch between Light and Dark modes to personalize your experience.
 
 ---
 

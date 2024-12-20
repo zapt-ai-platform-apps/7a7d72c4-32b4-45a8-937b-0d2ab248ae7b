@@ -3,7 +3,7 @@ import FooterNavigation from './FooterNavigation';
 
 export default function Footer() {
   return (
-    <footer class="w-full bg-dark-navy py-8">
+    <footer class="w-full bg-dark-navy dark:bg-light-gray py-8">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row justify-between items-center gap-8">
           <FooterInfo />
@@ -14,7 +14,7 @@ export default function Footer() {
             href="https://www.zapt.ai"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-light-gray hover:text-neon-yellow transition-colors underline"
+            class="text-light-gray dark:text-charcoal-gray hover:text-neon-yellow dark:hover:text-purple-custom transition-colors underline"
           >
             Made on ZAPT
           </a>
