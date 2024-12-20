@@ -5,18 +5,15 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote: 'ZAPT made it incredibly easy to bring my app idea to life without any coding.',
-      role: 'Entrepreneur',
-      avatarDescription: 'Illustration of an entrepreneur',
+      role: 'Entrepreneur'
     },
     {
       quote: 'The AI-powered development is a game-changer. I got my app up and running in minutes!',
-      role: 'Product Manager',
-      avatarDescription: 'Illustration of a product manager',
+      role: 'Product Manager'
     },
     {
       quote: 'I was able to focus on my ideas while ZAPT handled all the technical details.',
-      role: 'Freelancer',
-      avatarDescription: 'Illustration of a freelancer working',
+      role: 'Freelancer'
     },
     // Add more testimonials as needed
   ];
@@ -29,14 +26,6 @@ export default function TestimonialsSection() {
           <For each={testimonials}>
             {(testimonial) => (
               <div class="bg-charcoal-gray rounded-lg p-8 shadow-md transform transition duration-300 hover:scale-105">
-                <div class="flex items-center mb-4">
-                  <img
-                    src="PLACEHOLDER"
-                    alt={`Avatar of ${testimonial.role}`}
-                    data-image-request={testimonial.avatarDescription}
-                    class="w-16 h-16 rounded-full mr-4"
-                  />
-                </div>
                 <FaSolidQuoteLeft size={32} class="text-neon-yellow mb-4" />
                 <p class="italic mb-4">"{testimonial.quote}"</p>
                 <p class="text-xl font-semibold text-neon-yellow text-right">- {testimonial.role}</p>
