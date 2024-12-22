@@ -8,9 +8,8 @@ export default function HeroSection() {
           class="h-16 cursor-pointer"
         />
         <a
-          href="https://home.zapt.ai/"
+          href="https://v2.zapt.ai/"
           class="bg-neon-yellow text-dark-navy font-semibold py-2 px-4 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer dark:bg-purple-custom dark:text-white"
-          onClick={() => window.location.href="https://v2.zapt.ai/"}
         >
           Login / Sign Up
         </a>
@@ -20,9 +19,8 @@ export default function HeroSection() {
           Create apps in minutes - no coding required
         </h2>
         <a
-          href="https://home.zapt.ai/"
+          href="https://v2.zapt.ai/"
           class="mt-4 bg-neon-yellow text-dark-navy font-semibold py-4 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer inline-block dark:bg-purple-custom dark:text-white"
-          onClick={() => window.location.href="https://v2.zapt.ai/"}
         >
           Get Started
         </a>
