@@ -22,7 +22,7 @@ export default function HeroSection() {
         <a
           href="https://home.zapt.ai/"
           class="mt-4 bg-neon-yellow text-dark-navy font-semibold py-4 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer inline-block dark:bg-purple-custom dark:text-white"
-          onClick={() => console.log('Get Started button clicked')}
+          onClick={() => window.location.href="https://v2.zapt.ai/"}
         >
           Get Started
         </a>
