@@ -1,6 +1,35 @@
-import { FaSolidLightbulb, FaSolidUsers } from 'solid-icons/fa';
+import { FaSolidRobot, FaSolidPuzzlePiece, FaSolidDatabase, FaSolidWallet, FaSolidCog } from 'solid-icons/fa';
+import FeatureItem from './FeatureItem';
 
 export default function FeaturesSection() {
+  const features = [
+    {
+      icon: <FaSolidRobot size={48} class="text-neon-yellow" />,
+      title: "Latest AI Models with Full Context",
+      description: "We use state-of-the-art AI models, providing the models with your entire code to ensure they have full context."
+    },
+    {
+      icon: <FaSolidPuzzlePiece size={48} class="text-neon-yellow" />,
+      title: "Native Integrations",
+      description: "We provide database capabilities, authentication, payment functionalities, and AI APIs for your apps natively."
+    },
+    {
+      icon: <FaSolidDatabase size={48} class="text-neon-yellow" />,
+      title: "Staging Database",
+      description: "We provide a full staging database, so that database updates can be made with confidence."
+    },
+    {
+      icon: <FaSolidWallet size={48} class="text-neon-yellow" />,
+      title: "Pay-As-You-Go Pricing",
+      description: "We are fully pay-as-you-go, so you never spend more than you use, with no upfront costs."
+    },
+    {
+      icon: <FaSolidCog size={48} class="text-neon-yellow" />,
+      title: "Flexible AI Model Selection",
+      description: "You can choose whether to use a basic or advanced AI model, so that you can keep small changes low cost."
+    },
+  ];
+
   return (
     <div id="features" class="bg-dark-navy text-light-gray py-16">
       <div class="max-w-6xl mx-auto px-6">
@@ -9,25 +38,14 @@ export default function FeaturesSection() {
             Why Choose ZAPT?
           </h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div class="flex flex-col items-center">
-            <div class="w-24 h-24 mb-6 flex items-center justify-center bg-purple-custom rounded-full">
-              <FaSolidLightbulb size={48} class="text-neon-yellow" />
-            </div>
-            <h3 class="text-2xl font-semibold mb-4 text-center">AI-Powered Development</h3>
-            <p class="text-lg text-center">
-              Using AI, our platform lets you create apps just by describing your ideas in plain English.
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="w-24 h-24 mb-6 flex items-center justify-center bg-purple-custom rounded-full">
-              <FaSolidUsers size={48} class="text-neon-yellow" />
-            </div>
-            <h3 class="text-2xl font-semibold mb-4 text-center">No Technical Skills Required</h3>
-            <p class="text-lg text-center">
-              Simply tell ZAPT what you want to create, and our platform handles all the technical complexity automatically—like databases, user accounts, and payment systems.
-            </p>
-          </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {features.map(feature => (
+            <FeatureItem
+              icon={feature.icon}
+              title={feature.title}
+              description={feature.description}
+            />
+          ))}
         </div>
       </div>
     </div>
