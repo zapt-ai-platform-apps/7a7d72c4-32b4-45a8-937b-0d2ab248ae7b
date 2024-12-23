@@ -20,7 +20,19 @@ export default function FeaturesList() {
       icon: <ImCog size={32} class="text-dark-navy" />,
       title: "Flexible AI Model Selection",
       description:
-        "You can choose whether to use a basic or advanced AI model, so that you can keep small changes low cost.",
+        "You can choose whether to use a basic or advanced AI model so that you can always keep small changes low cost.",
+    },
+    {
+      icon: <FaSolidPuzzlePiece size={32} class="text-dark-navy" />,
+      title: "Native Integrations",
+      description:
+        "We provide database capabilities, user sign-in, payment functionalities, and AI APIs for your apps.",
+    },
+    {
+      icon: <FaSolidDatabase size={32} class="text-dark-navy" />,
+      title: "Staging Database",
+      description:
+        "We provide a full staging database so that updates can be made with confidence.",
     },
     {
       icon: <FaSolidRobot size={32} class="text-dark-navy" />,
@@ -28,19 +40,6 @@ export default function FeaturesList() {
       description:
         "We use state-of-the-art AI models, providing the models with your entire code to ensure they have full context.",
     },
-    {
-      icon: <FaSolidPuzzlePiece size={32} class="text-dark-navy" />,
-      title: "Native Integrations",
-      description:
-        "We provide database capabilities, authentication, payment functionalities, and AI APIs for your apps natively.",
-    },
-    {
-      icon: <FaSolidDatabase size={32} class="text-dark-navy" />,
-      title: "Staging Database",
-      description:
-        "We provide a full staging database, so that database updates can be made with confidence.",
-    },
-
   ];
 
   return (
