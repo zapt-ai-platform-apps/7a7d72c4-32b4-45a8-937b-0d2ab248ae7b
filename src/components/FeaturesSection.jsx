@@ -39,13 +39,18 @@ export default function FeaturesSection() {
             Why Choose ZAPT?
           </h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
-          {features.map(feature => (
-            <FeatureItem
-              icon={feature.icon}
-              title={feature.title}
-              description={feature.description}
-            />
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {features.map((feature, index) => (
+            <div class={`
+              ${features.length - index <= 2 && features.length % 2 === 1 ? 
+                'lg:col-start-2 md:col-span-2 lg:col-span-1' : ''}
+            `}>
+              <FeatureItem
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
+              />
+            </div>
           ))}
         </div>
       </div>
