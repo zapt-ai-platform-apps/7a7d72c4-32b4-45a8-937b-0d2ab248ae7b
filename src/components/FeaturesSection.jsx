@@ -1,4 +1,5 @@
-import { FaSolidRobot, FaSolidPuzzlePiece, FaSolidDatabase, FaSolidWallet, FaSolidCog } from 'solid-icons/fa';
+import { FaSolidRobot, FaSolidPuzzlePiece, FaSolidDatabase, FaSolidWallet } from 'solid-icons/fa';
+import { ImCog } from 'solid-icons/im'
 import FeatureItem from './FeatureItem';
 
 export default function FeaturesSection() {
@@ -24,7 +25,7 @@ export default function FeaturesSection() {
       description: "We are fully pay-as-you-go, so you never spend more than you use, with no upfront costs."
     },
     {
-      icon: <FaSolidCog size={48} class="text-neon-yellow" />,
+      icon: <ImCog size={48} class="text-neon-yellow" />,
       title: "Flexible AI Model Selection",
       description: "You can choose whether to use a basic or advanced AI model, so that you can keep small changes low cost."
     },
