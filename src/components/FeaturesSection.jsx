@@ -1,4 +1,4 @@
-import { FaSolidRobot, FaSolidPuzzlePiece, FaSolidDatabase, FaSolidWallet } from 'solid-icons/fa';
+import { FaSolidRobot, FaSolidPuzzlePiece, FaSolidDatabase, FaSolidWallet, FaSolidUsers } from 'solid-icons/fa';
 import { ImCog } from 'solid-icons/im';
 import FeatureItem from './FeatureItem';
 
@@ -28,6 +28,11 @@ export default function FeaturesSection() {
       icon: <ImCog size={48} class="text-neon-yellow" />,
       title: "Flexible AI Model Selection",
       description: "You can choose whether to use a basic or advanced AI model, so that you can keep small changes low cost."
+    },
+    {
+      icon: <FaSolidUsers size={48} class="text-neon-yellow" />,
+      title: "Accessible to Everyone",
+      description: "ZAPT is accessible for anyone, even non-technical users. Anyone can now turn their app ideas into reality."
     },
   ];
 
