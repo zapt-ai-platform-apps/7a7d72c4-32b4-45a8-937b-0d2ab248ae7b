@@ -11,7 +11,7 @@ export default function HeroSection() {
           href="https://v2.zapt.ai/"
           class="bg-neon-yellow text-dark-navy font-semibold py-2 px-4 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer dark:bg-purple-custom dark:text-white"
         >
-          Login / Sign Up
+          Login
         </a>
       </div>
       <div class="text-center px-6">
