@@ -5,6 +5,24 @@ import FeatureItem from './FeatureItem';
 export default function FeaturesList() {
   const features = [
     {
+      icon: <FaSolidUsers size={32} class="text-dark-navy" />,
+      title: "Accessible to Everyone",
+      description:
+        "Our platform completely abstracts all coding and technical tasks away.",
+    },
+    {
+      icon: <FaSolidWallet size={32} class="text-dark-navy" />,
+      title: "Pay-As-You-Go Pricing",
+      description:
+        "We are fully pay-as-you-go, so you never spend more than you use, with no upfront costs.",
+    },
+    {
+      icon: <ImCog size={32} class="text-dark-navy" />,
+      title: "Flexible AI Model Selection",
+      description:
+        "You can choose whether to use a basic or advanced AI model, so that you can keep small changes low cost.",
+    },
+    {
       icon: <FaSolidRobot size={32} class="text-dark-navy" />,
       title: "Latest AI Models with Full Context",
       description:
@@ -22,24 +40,7 @@ export default function FeaturesList() {
       description:
         "We provide a full staging database, so that database updates can be made with confidence.",
     },
-    {
-      icon: <FaSolidWallet size={32} class="text-dark-navy" />,
-      title: "Pay-As-You-Go Pricing",
-      description:
-        "We are fully pay-as-you-go, so you never spend more than you use, with no upfront costs.",
-    },
-    {
-      icon: <ImCog size={32} class="text-dark-navy" />,
-      title: "Flexible AI Model Selection",
-      description:
-        "You can choose whether to use a basic or advanced AI model, so that you can keep small changes low cost.",
-    },
-    {
-      icon: <FaSolidUsers size={32} class="text-dark-navy" />,
-      title: "Accessible to Everyone",
-      description:
-        "Our platform completely abstracts all coding and technical tasks away.",
-    },
+
   ];
 
   return (
