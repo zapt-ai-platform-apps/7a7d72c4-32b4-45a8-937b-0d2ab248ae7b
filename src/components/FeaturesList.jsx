@@ -38,7 +38,7 @@ export default function FeaturesList() {
       icon: <FaSolidUsers size={48} class="text-neon-yellow" />,
       title: "Accessible to Everyone",
       description:
-        "Our platform completely abstracts all coding and technical tasks away. It is all done behind the scenes, leaving non-technical users (and all users) to focus on improving their app.",
+        "Our platform completely abstracts all coding and technical tasks away.",
     },
   ];
 
