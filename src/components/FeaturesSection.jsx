@@ -39,7 +39,7 @@ export default function FeaturesSection() {
             Why Choose ZAPT?
           </h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-content-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
           {features.map(feature => (
             <FeatureItem
               icon={feature.icon}
