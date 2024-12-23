@@ -1,6 +1,6 @@
 export default function Promotion() {
   return (
-    <div class="flex flex-col sm:flex-row justify-center items-center space-y-8 sm:space-y-0 sm:space-x-8 w-full py-16 bg-white">
+    <div class="flex flex-col sm:flex-row justify-center items-center space-y-8 sm:space-y-0 sm:space-x-8 w-full py-16 bg-charcoal-gray">
       <a
         href="https://www.futurepedia.io/tool/zapt?utm_source=zapt_embed"
         class="inline-block w-64 h-14 bg-teal-500 p-1 rounded"
