@@ -1,5 +1,5 @@
 import { FaSolidRobot, FaSolidPuzzlePiece, FaSolidDatabase, FaSolidWallet } from 'solid-icons/fa';
-import { ImCog } from 'solid-icons/im'
+import { ImCog } from 'solid-icons/im';
 import FeatureItem from './FeatureItem';
 
 export default function FeaturesSection() {
@@ -32,14 +32,13 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <div id="features" class="bg-dark-navy text-light-gray py-16">
+    <section id="features" class="bg-dark-navy text-light-gray py-16">
       <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-          <h3 class="text-4xl font-semibold">
-            Why Choose ZAPT?
-          </h3>
+          <h3 class="text-5xl font-semibold mb-6">Why Choose ZAPT?</h3>
+          <p class="text-lg max-w-2xl mx-auto">Discover the features that make ZAPT the perfect choice for creating powerful AI-driven applications effortlessly.</p>
         </div>
-        <div class="flex flex-wrap justify-center gap-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {features.map(feature => (
             <FeatureItem
               icon={feature.icon}
@@ -49,6 +48,6 @@ export default function FeaturesSection() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
