@@ -6,7 +6,7 @@ export default function FooterInfo() {
         alt="ZAPT Logo"
         class="w-12 h-12"
       />
-      <p class="text-light-gray text-sm text-center md:text-left">
+      <p class="text-white text-sm text-center md:text-left">
         Copyright © 2024 Zapt Ltd. All rights reserved.
       </p>
     </div>
