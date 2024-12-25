@@ -11,13 +11,13 @@ export default function DesktopGrid(props) {
               <img
                 src={testimonial.avatar}
                 alt={`${testimonial.name} Avatar`}
-                class="w-16 h-16 rounded-full mr-4"
+                class="w-16 h-16 rounded-full mr-4 box-border"
                 data-image-request={testimonial['data-image-request']}
               />
               <div>
                 <p class="text-xl font-semibold">{testimonial.name}</p>
                 <p class="text-sm text-neon-yellow">
-                  {testimonial.position}, {testimonial.company}
+                  {testimonial.position}
                 </p>
               </div>
             </div>

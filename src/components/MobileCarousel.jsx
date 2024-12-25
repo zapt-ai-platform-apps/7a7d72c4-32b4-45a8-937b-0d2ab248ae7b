@@ -28,13 +28,13 @@ export default function MobileCarousel(props) {
             <img
               src={props.testimonials[currentIndex()].avatar}
               alt={`${props.testimonials[currentIndex()].name} Avatar`}
-              class="w-16 h-16 rounded-full mr-4"
+              class="w-16 h-16 rounded-full mr-4 box-border"
               data-image-request={props.testimonials[currentIndex()]['data-image-request']}
             />
             <div>
               <p class="text-xl font-semibold">{props.testimonials[currentIndex()].name}</p>
               <p class="text-sm text-neon-yellow">
-                {props.testimonials[currentIndex()].position}, {props.testimonials[currentIndex()].company}
+                {props.testimonials[currentIndex()].position}
               </p>
             </div>
           </div>
