@@ -9,12 +9,12 @@ export default function HowItWorksSection() {
       description: "Submit a request to update your app using our intuitive interface.",
     },
     {
-      icon: <FaRobot size={40} class="text-purple-custom" />,
+      icon: <FaSolidRobot size={40} class="text-purple-custom" />,
       title: "LLM Generates Code",
       description: "Our advanced LLM processes your request and generates the updated code seamlessly.",
     },
     {
-      icon: <FaSolidRobot size={40} class="text-purple-custom" />,
+      icon: <FaSolidWallet size={40} class="text-purple-custom" />,
       title: "Transparent Billing",
       description: "You are only charged for the API costs associated with the changes, ensuring you pay solely for what you use.",
     },
