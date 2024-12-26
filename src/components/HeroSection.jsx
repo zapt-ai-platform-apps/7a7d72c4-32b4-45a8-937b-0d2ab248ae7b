@@ -9,18 +9,20 @@ export default function HeroSection() {
         />
         <a
           href="https://v2.zapt.ai/"
-          class="bg-neon-yellow text-dark-navy font-semibold py-2 px-4 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer dark:bg-purple-custom dark:text-white"
+          class="bg-neon-yellow text-dark-navy font-semibold py-2 px-4 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer dark:bg-purple-custom dark:text-white cursor-pointer"
         >
           Login
         </a>
       </div>
       <div class="text-center px-6">
         <h2 class="text-5xl font-semibold text-center mb-6 text-light-gray dark:text-charcoal-gray text-stroke">
-          Create apps in minutes - no coding required
+          Create apps in minutes
+          <br />
+          No coding required
         </h2>
         <a
           href="https://v2.zapt.ai/"
-          class="mt-4 bg-neon-yellow text-dark-navy font-semibold py-4 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer inline-block dark:bg-purple-custom dark:text-white"
+          class="mt-4 bg-neon-yellow text-dark-navy font-semibold py-4 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer inline-block dark:bg-purple-custom dark:text-white cursor-pointer"
         >
           Get Started
         </a>

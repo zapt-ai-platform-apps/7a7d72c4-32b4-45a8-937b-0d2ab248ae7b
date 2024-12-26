@@ -1,22 +1,22 @@
-import { FaSolidRobot, FaSolidWallet } from 'solid-icons/fa';
-import { ImCog } from 'solid-icons/im'
+import { FaSolidRobot } from 'solid-icons/fa';
+import { ImCog } from 'solid-icons/im';
 
 export default function HowItWorksSection() {
   const steps = [
     {
       icon: <ImCog size={40} class="text-purple-custom" />,
-      title: "Request an Update",
+      title: "1. Request an Update",
       description: "Submit a request to update your app using our intuitive interface.",
     },
     {
       icon: <FaSolidRobot size={40} class="text-purple-custom" />,
-      title: "AI Generates Code",
+      title: "2. AI Generates Code",
       description: "Our advanced AI processes your request and generates the updated code seamlessly.",
     },
     {
-      icon: <FaSolidWallet size={40} class="text-purple-custom" />,
-      title: "Transparent Billing",
-      description: "You are only charged for the API costs associated with the changes, ensuring you pay solely for what you use.",
+      icon: <FaSolidRobot size={40} class="text-purple-custom" />,
+      title: "3. See Changes Instantly",
+      description: "Your app is updated instantly, allowing you to see changes in real-time.",
     },
   ];
 

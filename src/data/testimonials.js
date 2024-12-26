@@ -8,14 +8,14 @@ export const testimonials = [
   },
   {
     quote: 'Created an app for student exam prep in minutes. Zapt handles everything perfectly!',
-    name: 'Mark P',
+    name: 'Mark P.',
     position: 'Startup Founder',
     avatar: 'https://example.com/avatar2.png',
     'data-image-request': 'Startup Founder avatar',
   },
   {
     quote: 'Built a health and safety app quickly and easily with Zapt. Exceptional!',
-    name: 'Claudia G',
+    name: 'Claudia G.',
     position: 'Training and Compliance Manager',
     avatar: 'https://example.com/avatar3.png',
     'data-image-request': 'Training and Compliance Manager avatar',

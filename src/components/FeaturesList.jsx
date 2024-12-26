@@ -12,21 +12,21 @@ export default function FeaturesList() {
     },
     {
       icon: <FaSolidWallet size={32} class="text-dark-navy" />,
-      title: "Pay-As-You-Go Pricing",
+      title: "True Pay-As-You-Go",
       description:
-        "We are fully pay-as-you-go, so you never spend more than you use, with no upfront costs.",
+        "Only pay for what you use - no subscription fees, no upfront costs, no hidden charges.",
     },
     {
       icon: <ImCog size={32} class="text-dark-navy" />,
       title: "Flexible AI Model Selection",
       description:
-        "You can choose whether to use a basic or advanced AI model so that you can always keep small changes low cost.",
+        "Choose between basic and advanced AI models to optimize costs based on your needs.",
     },
     {
       icon: <FaSolidPuzzlePiece size={32} class="text-dark-navy" />,
       title: "Native Integrations",
       description:
-        "We provide database capabilities, user sign-in, payment functionalities, user analytics, real-time app error notifications and AI APIs for your apps.",
+        "Everything you need built-in: databases, user authentication, payments, analytics, error monitoring, and AI capabilities.",
     },
     {
       icon: <FaSolidDatabase size={32} class="text-dark-navy" />,
