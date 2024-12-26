@@ -11,6 +11,7 @@ Welcome to the ZAPT.AI landing page. This app serves as the entry point for user
 5. [Get Started with ZAPT](docs/journeys/get-started.md) - Begin your journey with ZAPT by signing up or logging in.
 6. [Navigate the App](docs/journeys/navigate-the-app.md) - Explore the accessible and responsive navigation elements.
 7. [Learn About Pricing and Technology](docs/journeys/learn-about-pricing-and-technology.md) - Understand our pay-as-you-go model and the technology powering ZAPT.
+8. [How It Works](docs/journeys/how-it-works.md) - Understand how updates are generated and our transparent pricing model.
 
 ---
 
