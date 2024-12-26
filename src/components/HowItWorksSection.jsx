@@ -35,11 +35,6 @@ export default function HowItWorksSection() {
             </div>
           ))}
         </div>
-        <div class="mt-8 text-center">
-          <p class="text-sm text-muted-white">
-            Made on ZAPT - <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" class="underline hover:text-neon-yellow cursor-pointer">www.zapt.ai</a>
-          </p>
-        </div>
       </div>
     </section>
   );
