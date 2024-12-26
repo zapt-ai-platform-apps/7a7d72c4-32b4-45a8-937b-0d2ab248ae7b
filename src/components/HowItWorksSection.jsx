@@ -10,8 +10,8 @@ export default function HowItWorksSection() {
     },
     {
       icon: <FaSolidRobot size={40} class="text-purple-custom" />,
-      title: "LLM Generates Code",
-      description: "Our advanced LLM processes your request and generates the updated code seamlessly.",
+      title: "AI Generates Code",
+      description: "Our advanced AI processes your request and generates the updated code seamlessly.",
     },
     {
       icon: <FaSolidWallet size={40} class="text-purple-custom" />,
