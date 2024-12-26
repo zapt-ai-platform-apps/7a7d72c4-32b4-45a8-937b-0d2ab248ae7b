@@ -26,7 +26,7 @@ export default function FeaturesList() {
       icon: <FaSolidPuzzlePiece size={32} class="text-dark-navy" />,
       title: "Native Integrations",
       description:
-        "We provide database capabilities, user sign-in, payment functionalities, and AI APIs for your apps.",
+        "We provide database capabilities, user sign-in, payment functionalities, user analytics, real-time app error notifications and AI APIs for your apps.",
     },
     {
       icon: <FaSolidDatabase size={32} class="text-dark-navy" />,
