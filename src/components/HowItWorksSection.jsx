@@ -1,4 +1,4 @@
-import { FaSolidRobot } from 'solid-icons/fa';
+import { FaSolidRobot, FaSolidBolt } from 'solid-icons/fa';
 import { ImCog } from 'solid-icons/im';
 
 export default function HowItWorksSection() {
@@ -14,7 +14,7 @@ export default function HowItWorksSection() {
       description: "Our advanced AI processes your request and generates the updated code seamlessly.",
     },
     {
-      icon: <FaSolidRobot size={40} class="text-purple-custom" />,
+      icon: <FaSolidBolt size={40} class="text-purple-custom" />,
       title: "3. See Changes Instantly",
       description: "Your app is updated instantly, allowing you to see changes in real-time.",
     },
