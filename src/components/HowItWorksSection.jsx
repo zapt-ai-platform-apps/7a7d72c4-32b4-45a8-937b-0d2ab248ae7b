@@ -1,4 +1,5 @@
-import { FaRobot, FaBolt } from 'react-icons/fa';
+import React from 'react';
+import { FaRobot, FaBolt, FaChartLine } from 'react-icons/fa';
 import { ImCog } from 'react-icons/im';
 
 export default function HowItWorksSection() {
@@ -15,8 +16,13 @@ export default function HowItWorksSection() {
     },
     {
       icon: <FaBolt size={40} className="text-purple-custom" />,
-      title: "3. See Changes Instantly",
-      description: "Your app is updated instantly, allowing you to see changes in real-time.",
+      title: "3. Integrations Added Automatically",
+      description: "Error monitoring and web analytics are automatically integrated into your app without any code.",
+    },
+    {
+      icon: <FaChartLine size={40} className="text-purple-custom" />,
+      title: "4. Monitor and Analyze Performance",
+      description: "Use error monitoring and web analytics to track your app's performance and traction over time.",
     },
   ];
 
@@ -24,7 +30,7 @@ export default function HowItWorksSection() {
     <section id="how-it-works" className="bg-dark-navy text-white py-16 px-6">
       <div className="max-w-6xl mx-auto">
         <h3 className="text-4xl font-bold mb-12 text-center">How It Works</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="flex items-center justify-center mb-4">

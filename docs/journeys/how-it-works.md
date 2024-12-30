@@ -1,10 +1,13 @@
 # How It Works
 
-Understand how updates are generated and the transparent pricing model.
+Learn how ZAPT creates apps effortlessly, adds integrations automatically, and helps you monitor your app's performance over time.
 
-import Steps from '../../components/HowItWorksSteps.jsx';
-import Details from '../../components/HowItWorksDetails.jsx';
+{% include_relative steps.md %}
 
-<Steps />
+---
 
-<Details />
+{% include_relative warnings.md %}
+
+---
+
+{% include_relative benefits.md %}

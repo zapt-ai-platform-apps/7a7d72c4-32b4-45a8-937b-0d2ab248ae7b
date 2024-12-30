@@ -2,6 +2,11 @@
 
 Welcome to the ZAPT.AI landing page. This app serves as the entry point for users to learn about ZAPT and get started on creating apps in minutes without coding.
 
+ZAPT stands out from other AI app creation tools by:
+
+- **No Coding Required**: Create apps and add integrations without having to see any code. Other tools are built for developers, but ZAPT is built for anyone to use.
+- **Production-Ready Products**: Build production-ready products with automatically added error monitoring and web analytics, ensuring your app performs optimally over time.
+
 ## User Journeys
 
 1. [Explore the Landing Page](docs/journeys/explore-landing-page.md) - Discover how ZAPT can transform your ideas into powerful apps effortlessly.
@@ -11,7 +16,7 @@ Welcome to the ZAPT.AI landing page. This app serves as the entry point for user
 5. [Get Started with ZAPT](docs/journeys/get-started.md) - Begin your journey with ZAPT by signing up or logging in.
 6. [Navigate the App](docs/journeys/navigate-the-app.md) - Explore the accessible and responsive navigation elements.
 7. [Learn About Pricing and Technology](docs/journeys/learn-about-pricing-and-technology.md) - Understand our pay-as-you-go model and the technology powering ZAPT.
-8. [How It Works](docs/journeys/how-it-works.md) - Understand how updates are generated and our transparent pricing model.
+8. [How It Works](docs/journeys/how-it-works.md) - Learn how ZAPT creates apps effortlessly, adds integrations automatically, and helps you monitor your app's performance over time.
 
 ---
 
@@ -21,20 +26,6 @@ Detailed design guidelines are available [here](docs/design-guidelines.md).
 
 ---
 
-## Environment Variables
+## Setup Guide
 
-To run this app, you need to set the following environment variables:
-
-- `VITE_PUBLIC_SENTRY_DSN` - Your Sentry DSN for error logging.
-- `VITE_PUBLIC_APP_ENV` - The app environment (e.g., 'development', 'production').
-- `VITE_PUBLIC_UMAMI_WEBSITE_ID` - Your Umami Analytics website ID.
-
-Set these variables in a `.env` file at the root of the project.
-
----
-
-## External Services
-
-- **Sentry**: Used for error logging and monitoring.
-- **Umami Analytics**: Used for tracking website analytics.
-- **Progressier**: Used for adding PWA functionality to the app.
+For information on environment variables and external services required to run this app, please refer to the [Setup Guide](docs/setup.md).
