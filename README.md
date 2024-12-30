@@ -29,3 +29,9 @@ Detailed design guidelines are available [here](docs/design-guidelines.md).
 ## Setup Guide
 
 For information on environment variables and external services required to run this app, please refer to the [Setup Guide](docs/setup.md).
+
+---
+
+## Updates
+
+- **Merged Sections**: The "Why ZAPT" and "Why Choose ZAPT" sections have been merged into a single "Why ZAPT" section to provide a more cohesive experience.
