@@ -1,10 +1,11 @@
+import React from 'react';
 import FeaturesHeader from './FeaturesHeader';
 import FeaturesList from './FeaturesList';
 
 export default function FeaturesSection() {
   return (
-    <section id="features" class="bg-dark-navy text-white py-16">
-      <div class="max-w-6xl mx-auto px-6">
+    <section id="features" className="bg-dark-navy text-white py-16">
+      <div className="max-w-6xl mx-auto px-6">
         <FeaturesHeader />
         <FeaturesList />
       </div>

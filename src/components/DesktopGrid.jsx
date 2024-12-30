@@ -1,31 +1,29 @@
-import { For } from 'solid-js';
-import { FaSolidQuoteLeft } from 'solid-icons/fa';
+import React from 'react';
+import { FaQuoteLeft } from 'react-icons/fa';
 
-export default function DesktopGrid(props) {
+export default function DesktopGrid({ testimonials }) {
   return (
-    <div class="hidden md:grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full">
-      <For each={props.testimonials}>
-        {(testimonial) => (
-          <div class="bg-charcoal-gray rounded-lg p-8 shadow-md transform transition duration-300 hover:scale-105">
-            <div class="flex items-center mb-4">
-              <img
-                src={testimonial.avatar}
-                alt={`${testimonial.name} Avatar`}
-                class="w-16 h-16 rounded-full mr-4 box-border"
-                data-image-request={testimonial['data-image-request']}
-              />
-              <div>
-                <p class="text-xl font-semibold">{testimonial.name}</p>
-                <p class="text-sm text-neon-yellow">
-                  {testimonial.position}
-                </p>
-              </div>
+    <div className="hidden md:grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full">
+      {testimonials.map((testimonial, index) => (
+        <div key={index} className="bg-charcoal-gray rounded-lg p-8 shadow-md transform transition duration-300 hover:scale-105">
+          <div className="flex items-center mb-4">
+            <img
+              src={testimonial.avatar}
+              alt={`${testimonial.name} Avatar`}
+              className="w-16 h-16 rounded-full mr-4 box-border"
+              data-image-request={testimonial['data-image-request']}
+            />
+            <div>
+              <p className="text-xl font-semibold">{testimonial.name}</p>
+              <p className="text-sm text-neon-yellow">
+                {testimonial.position}
+              </p>
             </div>
-            <FaSolidQuoteLeft size={32} class="text-neon-yellow mb-4" />
-            <p class="italic">"{testimonial.quote}"</p>
           </div>
-        )}
-      </For>
+          <FaQuoteLeft size={32} className="text-neon-yellow mb-4" />
+          <p className="italic">"{testimonial.quote}"</p>
+        </div>
+      ))}
     </div>
   );
 }

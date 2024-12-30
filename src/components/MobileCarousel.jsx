@@ -1,53 +1,51 @@
-import { createSignal } from 'solid-js';
-import { FaSolidQuoteLeft, FaSolidChevronLeft, FaSolidChevronRight } from 'solid-icons/fa';
+import React, { useState } from 'react';
+import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-export default function MobileCarousel(props) {
-  const [currentIndex, setCurrentIndex] = createSignal(0);
-  const totalTestimonials = props.testimonials.length;
+export default function MobileCarousel({ testimonials }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const totalTestimonials = testimonials.length;
 
   const nextTestimonial = () => {
-    setCurrentIndex((currentIndex() + 1) % totalTestimonials);
+    setCurrentIndex((currentIndex + 1) % totalTestimonials);
   };
 
   const prevTestimonial = () => {
-    setCurrentIndex((currentIndex() - 1 + totalTestimonials) % totalTestimonials);
+    setCurrentIndex((currentIndex - 1 + totalTestimonials) % totalTestimonials);
   };
 
   return (
-    <div class="md:hidden relative w-full flex items-center">
+    <div className="md:hidden relative w-full flex items-center">
       <button
-        class="absolute left-0 p-2 focus:outline-none cursor-pointer"
+        className="absolute left-0 p-2 focus:outline-none cursor-pointer"
         onClick={prevTestimonial}
         aria-label="Previous Testimonial"
       >
-        <FaSolidChevronLeft size={24} class="text-neon-yellow" />
+        <FaChevronLeft size={24} className="text-neon-yellow" />
       </button>
-      <div class="w-full px-8">
-        <div class="bg-charcoal-gray rounded-lg p-8 shadow-md">
-          <div class="flex items-center mb-4">
+      <div className="w-full px-8">
+        <div className="bg-charcoal-gray rounded-lg p-8 shadow-md">
+          <div className="flex items-center mb-4">
             <img
-              src={props.testimonials[currentIndex()].avatar}
-              alt={`${props.testimonials[currentIndex()].name} Avatar`}
-              class="w-16 h-16 rounded-full mr-4 box-border"
-              data-image-request={props.testimonials[currentIndex()]['data-image-request']}
+              src={testimonials[currentIndex].avatar}
+              alt={`${testimonials[currentIndex].name} Avatar`}
+              className="w-16 h-16 rounded-full mr-4 box-border"
+              data-image-request={testimonials[currentIndex]['data-image-request']}
             />
             <div>
-              <p class="text-xl font-semibold">{props.testimonials[currentIndex()].name}</p>
-              <p class="text-sm text-neon-yellow">
-                {props.testimonials[currentIndex()].position}
-              </p>
+              <p className="text-xl font-semibold">{testimonials[currentIndex].name}</p>
+              <p className="text-sm text-neon-yellow">{testimonials[currentIndex].position}</p>
             </div>
           </div>
-          <FaSolidQuoteLeft size={32} class="text-neon-yellow mb-4" />
-          <p class="italic">"{props.testimonials[currentIndex()].quote}"</p>
+          <FaQuoteLeft size={32} className="text-neon-yellow mb-4" />
+          <p className="italic">"{testimonials[currentIndex].quote}"</p>
         </div>
       </div>
       <button
-        class="absolute right-0 p-2 focus:outline-none cursor-pointer"
+        className="absolute right-0 p-2 focus:outline-none cursor-pointer"
         onClick={nextTestimonial}
         aria-label="Next Testimonial"
       >
-        <FaSolidChevronRight size={24} class="text-neon-yellow" />
+        <FaChevronRight size={24} className="text-neon-yellow" />
       </button>
     </div>
   );
