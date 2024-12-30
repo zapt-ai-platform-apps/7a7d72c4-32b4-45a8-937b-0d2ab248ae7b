@@ -7,7 +7,6 @@ import {
   FaUsers,
   FaRocket,
 } from 'react-icons/fa';
-import { ImCog } from 'react-icons/im';
 import FeatureItem from './FeatureItem';
 
 export default function FeaturesList() {
@@ -37,23 +36,17 @@ export default function FeaturesList() {
         'Everything you need built-in: databases, user authentication, payments, analytics, error monitoring, and AI capabilities.',
     },
     {
-      icon: <FaDatabase size={32} className="text-dark-navy" />,
-      title: 'Staging Database',
-      description:
-        'We provide a full staging database so that updates can be made with confidence.',
-    },
-    {
       icon: <FaWallet size={32} className="text-dark-navy" />,
       title: 'True Pay-As-You-Go',
       description:
         'Only pay for what you use—no subscription fees, upfront costs, or hidden charges.',
     },
     {
-      icon: <ImCog size={32} className="text-dark-navy" />,
-      title: 'Flexible AI Model Selection',
+      icon: <FaDatabase size={32} className="text-dark-navy" />,
+      title: 'Staging Database',
       description:
-        'Choose between basic and advanced AI models to optimize costs based on your needs.',
-    },
+        'We provide a full staging database so that updates can be made with confidence.',
+    }
   ];
 
   return (
