@@ -21,16 +21,16 @@ export default function HowItWorksSection() {
   ];
 
   return (
-    <section id="how-it-works" className="bg-dark-navy text-white py-16 px-6">
+    <section id="how-it-works" className="bg-dark-navy text-white py-20 px-8">
       <div className="max-w-6xl mx-auto">
-        <h3 className="text-4xl font-bold mb-12 text-center">How It Works</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <h3 className="text-4xl font-bold mb-16 text-center">How It Works</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center cursor-pointer">
-              <div className="flex items-center justify-center mb-4">
+              <div className="flex items-center justify-center mb-6">
                 {step.icon}
               </div>
-              <h4 className="text-2xl font-semibold mb-2">{step.title}</h4>
+              <h4 className="text-2xl font-semibold mb-4">{step.title}</h4>
               <p className="text-lg">{step.description}</p>
             </div>
           ))}

@@ -4,10 +4,10 @@ import TestimonialCard from './TestimonialCard';
 
 export default function TestimonialsSection() {
   return (
-    <div className="bg-dark-navy text-white py-16 px-6">
+    <div className="bg-dark-navy text-white py-20 px-8">
       <div className="max-w-6xl mx-auto">
-        <h3 className="text-4xl font-bold mb-12 text-center">What Our Users Say</h3>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <h3 className="text-4xl font-bold mb-16 text-center">What Our Users Say</h3>
+        <div className="grid gap-12 md:grid-cols-2">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard key={index} testimonial={testimonial} />
           ))}

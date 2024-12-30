@@ -4,8 +4,8 @@ import FeaturesList from './FeaturesList';
 
 export default function FeaturesSection() {
   return (
-    <section id="why-zapt" className="bg-dark-navy text-white py-16">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="why-zapt" className="bg-dark-navy text-white py-20">
+      <div className="max-w-6xl mx-auto px-8">
         <FeaturesHeader />
         <FeaturesList />
       </div>

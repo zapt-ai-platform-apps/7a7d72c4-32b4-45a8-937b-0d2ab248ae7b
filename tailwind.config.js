@@ -1,8 +1,8 @@
 export default {
-  darkMode: 'class', // Enable class-based dark mode
+  darkMode: 'class',
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
     extend: {
@@ -16,6 +16,9 @@ export default {
         'purple-custom': '#763BEA',
         'light-gray': '#F5F5F5',
         'muted-white': '#E0E0E0',
+      },
+      spacing: {
+        '18': '4.5rem',
       },
     },
   },
