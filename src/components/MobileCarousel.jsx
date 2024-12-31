@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 export default function MobileCarousel({ testimonials }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,8 +22,8 @@ export default function MobileCarousel({ testimonials }) {
       >
         <FaChevronLeft size={24} className="text-neon-yellow" />
       </button>
-      <div className="w-full px-8">
-        <div className="bg-charcoal-gray rounded-lg p-8 shadow-md">
+      <div className="w-full px-6">
+        <div className="bg-charcoal-gray rounded-lg p-6 shadow-md">
           <div className="flex items-center mb-4">
             <img
               src={testimonials[currentIndex].avatar}
@@ -36,7 +36,6 @@ export default function MobileCarousel({ testimonials }) {
               <p className="text-sm text-neon-yellow">{testimonials[currentIndex].position}</p>
             </div>
           </div>
-          <FaQuoteLeft size={32} className="text-neon-yellow mb-4" />
           <p className="italic">"{testimonials[currentIndex].quote}"</p>
         </div>
       </div>

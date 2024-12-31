@@ -1,9 +1,8 @@
 import React from 'react';
-import { FaQuoteLeft } from 'react-icons/fa';
 
 export default function DesktopGrid({ testimonials }) {
   return (
-    <div className="hidden md:grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full">
+    <div className="hidden md:grid gap-8 md:grid-cols-2 lg:grid-cols-2 w-full">
       {testimonials.map((testimonial, index) => (
         <div key={index} className="bg-charcoal-gray rounded-lg p-8 shadow-md transform transition duration-300 hover:scale-105">
           <div className="flex items-center mb-4">
@@ -20,7 +19,6 @@ export default function DesktopGrid({ testimonials }) {
               </p>
             </div>
           </div>
-          <FaQuoteLeft size={32} className="text-neon-yellow mb-4" />
           <p className="italic">"{testimonial.quote}"</p>
         </div>
       ))}
