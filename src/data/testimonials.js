@@ -20,4 +20,11 @@ export const testimonials = [
     avatar: 'https://example.com/avatar3.png',
     'data-image-request': 'Training and Compliance Manager avatar',
   },
+  {
+    quote: 'Zapt transformed my workflow by allowing me to create custom solutions without any coding knowledge. Absolutely fantastic!',
+    name: 'Alex R.',
+    position: 'Freelance Designer',
+    avatar: 'https://example.com/avatar4.png',
+    'data-image-request': 'Freelance Designer avatar',
+  },
 ];
