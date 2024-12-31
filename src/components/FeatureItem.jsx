@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FeatureItem({ icon, title, description }) {
   return (
-    <div className="rounded-lg border border-gray-700 bg-charcoal-gray text-white shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1 p-8">
+    <div className="rounded-lg border border-neon-yellow bg-charcoal-gray text-white shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1 p-8">
       <div className="flex items-center justify-center mb-6">
         <div className="w-20 h-20 bg-neon-yellow rounded-full flex items-center justify-center">
           {icon}

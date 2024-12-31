@@ -21,7 +21,7 @@ export const testimonials = [
     'data-image-request': 'Training and Compliance Manager avatar',
   },
   {
-    quote: 'Zapt transformed my workflow by allowing me to create custom solutions without any coding knowledge. Absolutely fantastic!',
+    quote: 'Zapt revolutionized my workflow by enabling me to craft custom solutions effortlessly, without any coding expertise. Truly exceptional!',
     name: 'Alex R.',
     position: 'Entrepreneur',
     avatar: 'https://example.com/avatar4.png',
