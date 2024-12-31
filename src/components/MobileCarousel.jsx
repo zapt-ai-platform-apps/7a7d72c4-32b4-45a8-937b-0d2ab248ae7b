@@ -24,17 +24,9 @@ export default function MobileCarousel({ testimonials }) {
       </button>
       <div className="w-full px-6">
         <div className="bg-charcoal-gray rounded-lg p-6 shadow-md">
-          <div className="flex items-center mb-4">
-            <img
-              src={testimonials[currentIndex].avatar}
-              alt={`${testimonials[currentIndex].name} Avatar`}
-              className="w-16 h-16 rounded-full mr-4 box-border"
-              data-image-request={testimonials[currentIndex]['data-image-request']}
-            />
-            <div>
-              <p className="text-xl font-semibold">{testimonials[currentIndex].name}</p>
-              <p className="text-sm text-neon-yellow">{testimonials[currentIndex].position}</p>
-            </div>
+          <div className="mb-4">
+            <p className="text-xl font-semibold">{testimonials[currentIndex].name}</p>
+            <p className="text-sm text-neon-yellow">{testimonials[currentIndex].position}</p>
           </div>
           <p className="italic">"{testimonials[currentIndex].quote}"</p>
         </div>
