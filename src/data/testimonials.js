@@ -23,8 +23,8 @@ export const testimonials = [
   {
     quote: 'Zapt transformed my workflow by allowing me to create custom solutions without any coding knowledge. Absolutely fantastic!',
     name: 'Alex R.',
-    position: 'Freelance Designer',
+    position: 'Entrepreneur',
     avatar: 'https://example.com/avatar4.png',
-    'data-image-request': 'Freelance Designer avatar',
+    'data-image-request': 'Entrepreneur avatar',
   },
 ];
