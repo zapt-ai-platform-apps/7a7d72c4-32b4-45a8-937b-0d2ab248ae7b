@@ -26,15 +26,17 @@ export default function FeaturedApps() {
 
   return (
     <div className="mt-16">
-      <h4 className="text-3xl font-semibold mb-8 text-center text-white">Apps Built with ZAPT</h4>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <h4 className="text-4xl font-semibold mb-8 text-center text-white">
+        Some Examples of Apps Built by ZAPT Users
+      </h4>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
         {apps.map((app, index) => (
           <a
             key={index}
             href={app.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-charcoal-gray rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col justify-between cursor-pointer"
+            className="bg-charcoal-gray rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col justify-between cursor-pointer transform hover:-translate-y-1"
           >
             <div>
               <h5 className="text-2xl font-bold mb-4 text-neon-yellow">{app.name}</h5>
