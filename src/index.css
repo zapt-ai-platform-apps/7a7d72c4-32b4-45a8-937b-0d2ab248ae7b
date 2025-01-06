@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 /* Custom CSS */
+
 @media (min-width: 768px) {
   .text-stroke {
     text-shadow:
@@ -74,10 +75,7 @@ button, a.button {
   @apply px-6 py-3;
 }
 
-/* Bold Borders */
-.border-neon-yellow {
-  @apply border-4 border-neon-yellow;
-}
+/* Removed the problematic border-neon-yellow class to prevent circular dependency */
 
 /* Increased Icon Sizes */
 .icon-large {
