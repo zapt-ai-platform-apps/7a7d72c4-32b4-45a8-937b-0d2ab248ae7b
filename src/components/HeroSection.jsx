@@ -16,7 +16,7 @@ export default function HeroSection() {
           Login
         </a>
       </div>
-      <div className="text-center px-6">
+      <div className="text-center px-6 pt-20 md:pt-0">
         <h2 className="text-5xl md:text-7xl font-extrabold text-center mb-8 text-light-gray dark:text-charcoal-gray text-stroke leading-tight">
           Create apps in minutes
           <br />

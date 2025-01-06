@@ -33,7 +33,7 @@ export default function FeaturedApps() {
             href={app.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-dark-navy rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-12 flex flex-col justify-between cursor-pointer transform hover:scale-105"
+            className="bg-dark-navy rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 sm:p-12 flex flex-col justify-between cursor-pointer transform hover:scale-105"
           >
             <div className="mb-6">
               <h5 className="text-4xl font-semibold mb-2 text-white">{app.name}</h5>
