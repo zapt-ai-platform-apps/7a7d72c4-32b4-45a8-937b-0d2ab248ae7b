@@ -29,21 +29,21 @@ export default function FeaturedApps() {
       <h4 className="text-5xl font-bold mb-12 text-center text-neon-yellow">
         Examples of Apps Built by ZAPT Users
       </h4>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">
         {apps.map((app, index) => (
           <a
             key={index}
             href={app.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-dark-navy rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-8 flex flex-col justify-between cursor-pointer transform hover:scale-105"
+            className="bg-dark-navy rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-12 flex flex-col justify-between cursor-pointer transform hover:scale-105"
           >
             <div className="mb-6">
-              <h5 className="text-3xl font-semibold mb-2 text-neon-yellow">{app.name}</h5>
-              <p className="text-lg text-white">{app.description}</p>
+              <h5 className="text-4xl font-semibold mb-2 text-neon-yellow">{app.name}</h5>
+              <p className="text-xl text-white">{app.description}</p>
             </div>
             <div className="mt-auto">
-              <button className="w-full bg-neon-yellow text-dark-navy font-semibold py-3 px-6 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer">
+              <button className="w-full bg-neon-yellow text-dark-navy font-semibold py-4 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer">
                 Visit
               </button>
             </div>
