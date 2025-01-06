@@ -6,14 +6,13 @@
 
 /* Custom CSS */
 
-@media (min-width: 768px) {
-  .text-stroke {
-    text-shadow:
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      2px 2px 0 #000;
-  }
+/* Enhanced Transitions */
+.custom-transition-shadow {
+  @apply transition-shadow duration-500;
+}
+
+.custom-transition-colors {
+  @apply transition-colors duration-500;
 }
 
 /* Adjust body background color */
@@ -82,17 +81,13 @@ button, a.button {
   @apply w-12 h-12;
 }
 
-/* Enhanced Transitions */
-.transition-shadow {
-  @apply transition-shadow duration-500;
-}
-
-.transition-colors {
-  @apply transition-colors duration-500;
-}
-
-.cursor-pointer {
+/* cursor-pointer and box-border */
+button {
   @apply cursor-pointer;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  @apply box-border;
 }
 
 /* Made on ZAPT Badge */
