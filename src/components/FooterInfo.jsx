@@ -9,7 +9,7 @@ export default function FooterInfo() {
         className="w-12 h-12"
       />
       <p className="text-white text-sm text-center md:text-left">
-        Copyright © 2024 Zapt Ltd. All rights reserved.
+        Copyright © 2025 Zapt Ltd. All rights reserved.
       </p>
     </div>
   );

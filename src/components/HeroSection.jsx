@@ -17,7 +17,7 @@ export default function HeroSection() {
         </a>
       </div>
       <div className="text-center px-6">
-        <h2 className="text-5xl md:text-7xl font-extrabold text-center mb-8 text-light-gray dark:text-charcoal-gray text-stroke leading-tight text-shadow-sm">
+        <h2 className="text-5xl md:text-7xl font-extrabold text-center mb-8 text-light-gray dark:text-charcoal-gray text-stroke leading-tight text-shadow-sm border-2 border-dark-navy">
           Create apps in minutes
           <br />
           No coding required

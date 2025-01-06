@@ -36,7 +36,7 @@ export default function FeaturedApps() {
             className="bg-dark-navy rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-12 flex flex-col justify-between cursor-pointer transform hover:scale-105"
           >
             <div className="mb-6">
-              <h5 className="text-4xl font-semibold mb-2 text-neon-yellow">{app.name}</h5>
+              <h5 className="text-4xl font-semibold mb-2 text-white">{app.name}</h5>
               <p className="text-xl text-white">{app.description}</p>
             </div>
             <div className="mt-auto">
