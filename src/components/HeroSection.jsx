@@ -30,11 +30,11 @@ export default function HeroSection() {
         </a>
       </div>
       <div className="absolute bottom-6 w-full flex justify-center">
-        <a href="#why-zapt" className="text-light-gray dark:text-charcoal-gray hover:text-neon-yellow dark:hover:text-purple-custom transition-colors cursor-pointer">
+        <span className="text-light-gray dark:text-charcoal-gray transition-colors">
           <svg className="w-8 h-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
           </svg>
-        </a>
+        </span>
       </div>
     </div>
   );
