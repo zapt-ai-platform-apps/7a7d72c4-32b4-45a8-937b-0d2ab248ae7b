@@ -39,3 +39,8 @@ h2, h3, h4 {
 p {
   line-height: 1.8;
 }
+
+/* Featured Apps Enhancements */
+a:hover .text-neon-yellow {
+  color: #ffffff;
+}
