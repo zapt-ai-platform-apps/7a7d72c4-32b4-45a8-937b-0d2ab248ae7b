@@ -1,4 +1,5 @@
 import React from 'react';
+import FeaturedApps from './FeaturedApps';
 
 export default function SummarySection() {
   return (
@@ -9,6 +10,7 @@ export default function SummarySection() {
           Create fully-functional applications in minutes — no technical knowledge needed. <br />
           ZAPT handles everything from code to deployment.
         </p>
+        <FeaturedApps />
       </div>
     </section>
   );
