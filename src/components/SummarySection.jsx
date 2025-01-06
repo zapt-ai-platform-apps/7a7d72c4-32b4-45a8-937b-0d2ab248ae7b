@@ -8,9 +8,9 @@ export default function SummarySection() {
         <h3 className="text-6xl mb-12 text-center leading-tight">
           Build apps like these
         </h3>
-        <h4 className="text-2xl mb-6 text-center">
+        <p className="text-2xl mb-6 text-center">
           Here are some of the ideas our users are bringing to life with ZAPT
-        </h4>
+        </p>
         <FeaturedApps />
       </div>
     </section>
