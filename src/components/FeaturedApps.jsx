@@ -13,7 +13,7 @@ export default function FeaturedApps() {
       url: 'https://morzine.org/',
     },
     {
-      name: 'Construction Career Development',
+      name: 'Construction Careers',
       description: 'An app for young people to think about the construction sector',
       url: 'https://construct-career.zapt.app/',
     },
