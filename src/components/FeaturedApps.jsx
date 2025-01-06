@@ -3,6 +3,11 @@ import React from 'react';
 export default function FeaturedApps() {
   const apps = [
     {
+      name: 'Administrate',
+      description: 'A tool to help you manage your tasks efficiently',
+      url: 'https://www.administrate.co.uk/',
+    },
+    {
       name: 'Football Subs',
       description: 'A tool for managing a kids football team',
       url: 'https://footballsubs.com/',
@@ -16,11 +21,6 @@ export default function FeaturedApps() {
       name: 'Construction Careers',
       description: 'An app for young people to think about the construction sector',
       url: 'https://construct-career.zapt.app/',
-    },
-    {
-      name: 'Administrate',
-      description: 'A tool to help you manage your tasks efficiently',
-      url: 'https://www.administrate.co.uk/',
     },
   ];
 
