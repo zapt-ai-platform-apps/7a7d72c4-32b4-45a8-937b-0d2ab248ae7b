@@ -16,12 +16,11 @@ export default function HeroSection() {
           Login
         </a>
       </div>
-      <div className="text-center px-6 pt-20 md:pt-0">
+      <div className="text-center px-6 pt-20 md:pt-0 bg-black bg-opacity-50">
         <h2 className="text-5xl md:text-7xl font-extrabold text-center mb-8 text-light-gray dark:text-charcoal-gray text-stroke leading-tight">
-          Create apps in minutes
-          <br />
-          No coding required
+          Bring Your Ideas to Life
         </h2>
+        <p className="text-2xl mb-8">Create Apps in Minutes, No Coding Required</p>
         <a
           href="https://v2.zapt.ai/"
           className="mt-8 bg-neon-yellow text-dark-navy font-bold py-4 px-16 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer inline-block dark:bg-purple-custom dark:text-white"
