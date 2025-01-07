@@ -74,8 +74,6 @@ button, a.button {
   @apply px-6 py-3;
 }
 
-/* Removed the problematic border-neon-yellow class to prevent circular dependency */
-
 /* Increased Icon Sizes */
 .icon-large {
   @apply w-12 h-12;
@@ -94,4 +92,9 @@ input[type="text"], input[type="password"], input[type="email"] {
 .made-on-zapt {
   @apply text-neon-yellow font-semibold underline;
   font-size: 1.2rem;
+}
+
+/* Centering texts in 'Build apps like these' */
+.summary-title, .summary-description {
+  @apply text-center;
 }
