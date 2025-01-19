@@ -13,17 +13,6 @@ export default function FeaturedApps() {
       url: 'https://footballsubs.com/',
     },
     {
-      name: 'Morzine Ski Resort',
-      description: 'A website for resort visitors',
-      url: 'https://morzine.org/',
-    },
-    {
-      name: 'Construction Careers',
-      description: 'An app for young people to think about the construction sector',
-      url: 'https://construct-career.zapt.app/',
-    },
-    // NEWLY ADDED APPS:
-    {
       name: 'UpGrade',
       description: 'A personalized revision timetable app designed to help you efficiently prepare for your examinations.',
       url: 'https://upgrade.zapt.app/',
@@ -32,6 +21,16 @@ export default function FeaturedApps() {
       name: 'Risk Assist',
       description: 'Helps you identify, assess, and mitigate risks with ease using our advanced AI-driven platform.',
       url: 'https://riskassist.org/',
+    },
+    {
+      name: 'Morzine Ski Resort',
+      description: 'A website for resort visitors',
+      url: 'https://morzine.org/',
+    },
+    {
+      name: 'Construction Careers',
+      description: 'An app for young people to think about the construction sector',
+      url: 'https://construct-career.zapt.app/',
     },
   ];
 
