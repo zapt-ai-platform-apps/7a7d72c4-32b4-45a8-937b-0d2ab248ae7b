@@ -22,6 +22,17 @@ export default function FeaturedApps() {
       description: 'An app for young people to think about the construction sector',
       url: 'https://construct-career.zapt.app/',
     },
+    // NEWLY ADDED APPS:
+    {
+      name: 'UpGrade',
+      description: 'A personalized revision timetable app designed to help you efficiently prepare for your examinations.',
+      url: 'https://upgrade.zapt.app/',
+    },
+    {
+      name: 'Risk Assist',
+      description: 'Helps you identify, assess, and mitigate risks with ease using our advanced AI-driven platform.',
+      url: 'https://riskassist.org/',
+    },
   ];
 
   return (
