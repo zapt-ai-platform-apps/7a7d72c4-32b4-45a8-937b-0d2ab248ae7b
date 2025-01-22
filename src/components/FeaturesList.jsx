@@ -1,51 +1,45 @@
 import React from 'react';
 import {
-  FaRobot,
+  FaMagic,
+  FaShieldAlt,
   FaPuzzlePiece,
-  FaDatabase,
-  FaWallet,
-  FaUsers,
+  FaCoins,
   FaRocket,
+  FaUserFriends
 } from 'react-icons/fa';
 import FeatureItem from './FeatureItem';
 
 export default function FeaturesList() {
   const features = [
     {
-      icon: <FaUsers size={32} className="text-dark-navy" />,
-      title: 'Built for Everyone, Not Just Developers',
-      description:
-        'Create professional apps through our easy-to-use platform—no coding or technical skills required.',
+      icon: <FaMagic size={32} className="text-dark-navy" />,
+      title: 'Smart AI That Understands You',
+      description: 'Describe your app in plain English - our AI handles all the technical complexity behind the scenes',
     },
     {
-      icon: <FaRocket size={32} className="text-dark-navy" />,
-      title: 'Production-Ready from Day One',
-      description:
-        'Every app comes with built-in error monitoring, analytics, database management, and essential integrations.',
+      icon: <FaShieldAlt size={32} className="text-dark-navy" />,
+      title: 'Built-In Protection & Reliability',
+      description: 'Automatic error monitoring and backups keep your app running smoothly 24/7',
     },
     {
-      icon: <FaRobot size={32} className="text-dark-navy" />,
-      title: 'Latest AI Models with Full Context',
-      description:
-        'We use state-of-the-art AI models, providing them with your entire code to ensure full context.',
+      icon: <FaUserFriends size={32} className="text-dark-navy" />,
+      title: 'Designed for Everyone',
+      description: 'Create professional apps through our simple interface - no technical skills needed',
     },
     {
       icon: <FaPuzzlePiece size={32} className="text-dark-navy" />,
-      title: 'Native Integrations',
-      description:
-        'Everything you need built-in: databases, user authentication, payments, analytics, error monitoring, and AI capabilities.',
+      title: 'Everything Included',
+      description: 'Get databases, user logins, payments, and analytics ready-to-use in your app',
     },
     {
-      icon: <FaWallet size={32} className="text-dark-navy" />,
-      title: 'True Pay-As-You-Go',
-      description:
-        'Only pay for what you use—no subscription fees, upfront costs, or hidden charges.',
+      icon: <FaCoins size={32} className="text-dark-navy" />,
+      title: 'Only Pay for What You Use',
+      description: 'No subscriptions or hidden fees - simple pricing based on your actual usage',
     },
     {
-      icon: <FaDatabase size={32} className="text-dark-navy" />,
-      title: 'Staging Database',
-      description:
-        'We provide a full staging database so that updates can be made with confidence.',
+      icon: <FaRocket size={32} className="text-dark-navy" />,
+      title: 'Launch Faster',
+      description: 'Go from idea to live app in hours instead of months with our AI-powered platform',
     },
   ];
 

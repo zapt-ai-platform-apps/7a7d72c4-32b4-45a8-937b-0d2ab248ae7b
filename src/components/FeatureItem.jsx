@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function FeatureItem({ icon, title, description }) {
   return (
-    <div className="rounded-xl border-4 border-neon-yellow bg-charcoal-gray text-white shadow-lg hover:shadow-2xl transition-shadow duration-500 transform hover:-translate-y-1 py-10 px-5 sm:px-10">
-      <div className="flex items-center justify-center mb-8">
-        <div className="w-24 h-24 bg-neon-yellow rounded-full flex items-center justify-center">
+    <div className="rounded-xl border-2 border-purple-custom bg-deep-space text-white shadow-feature-card hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02] py-8 px-6 cursor-pointer group">
+      <div className="flex items-center justify-center mb-6">
+        <div className="w-20 h-20 bg-gradient-to-br from-purple-custom to-soft-teal rounded-xl flex items-center justify-center group-hover:rotate-12 transition-transform">
           {icon}
         </div>
       </div>
-      <h4 className="text-3xl font-bold mb-6 text-center">{title}</h4>
-      <p className="text-center text-xl text-light-gray">{description}</p>
+      <h4 className="text-2xl font-bold mb-4 text-center text-neon-yellow">{title}</h4>
+      <p className="text-center text-lg text-light-gray leading-relaxed">{description}</p>
     </div>
   );
 }
