@@ -100,7 +100,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 /* New gradient background for feature cards */
-.bg-dark-navy/50 {
+.bg-dark-navy\/50 {
   background-color: rgba(28, 28, 28, 0.5);
 }
 
