@@ -23,9 +23,9 @@ export default function FeaturedApps() {
       url: 'https://footballsubs.com/',
     },
     {
-      name: 'UpGrade',
-      description: 'Personalized revision timetable app for exam preparation',
-      url: 'https://upgrade.zapt.app/',
+      name: 'Construction Careers',
+      description: 'Explore construction industry roles matching your skills',
+      url: 'https://construct-career.zapt.app/',
     },
     {
       name: 'Risk Assist',
