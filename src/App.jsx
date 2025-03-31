@@ -1,24 +1,21 @@
 import React from 'react';
-import HeroSection from './components/HeroSection';
-import SummarySection from './components/SummarySection';
-import FeaturesSection from './components/FeaturesSection';
-import HowItWorksSection from './components/HowItWorksSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import CallToActionSection from './components/CallToActionSection';
-import Promotion from './components/Promotion';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ConsultancyPage from './pages/ConsultancyPage';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col font-poppins text-light-gray">
-      <HeroSection />
-      <SummarySection />
-      <FeaturesSection />
-      <HowItWorksSection />
-      <TestimonialsSection />
-      <CallToActionSection />
-      <Promotion />
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen flex flex-col font-poppins text-light-gray">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/consultancy" element={<ConsultancyPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
