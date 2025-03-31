@@ -35,18 +35,35 @@ export default function ConsultancyContactCTA() {
         moduleTo: 'api'
       });
       
-      // Submit to API
+      // First, submit to API for local processing
       const result = await api.submitConsultationRequest(validatedData);
       
-      if (result.success) {
-        setSubmitted(true);
-        eventBus.publish(events.FORM_SUBMITTED, { 
-          status: 'success',
-          data: validatedData
-        });
-      } else {
+      if (!result.success) {
         throw new Error(result.message || 'Failed to submit form');
       }
+      
+      // Then, send email via our email API
+      const emailResponse = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(validatedData),
+      });
+      
+      const emailResult = await emailResponse.json();
+      
+      if (!emailResponse.ok) {
+        throw new Error(emailResult.error || 'Failed to send email');
+      }
+      
+      // If both operations succeed, show success message
+      setSubmitted(true);
+      eventBus.publish(events.FORM_SUBMITTED, { 
+        status: 'success',
+        data: validatedData
+      });
+      
     } catch (error) {
       setError(error.message);
       eventBus.publish(events.FORM_SUBMITTED, { 
