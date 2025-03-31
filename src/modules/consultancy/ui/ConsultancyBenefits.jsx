@@ -44,19 +44,21 @@ export default function ConsultancyBenefits() {
     }
   }).filter(Boolean);
 
+  // Select only the top 3 benefits to show
+  const topBenefits = benefits.slice(0, 3);
+
   return (
     <section className="py-20 bg-gradient-to-b from-charcoal-gray to-dark-navy">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center text-white">
           Why Choose Our Consultancy
         </h2>
-        <p className="text-xl text-center mb-16 max-w-3xl mx-auto text-light-gray">
-          Our hand-held consultancy service provides the perfect balance of guidance and control, 
-          giving you a custom-built app without the technical headaches.
+        <p className="text-xl text-center mb-12 max-w-3xl mx-auto text-light-gray">
+          Our consultancy service provides expert guidance and technical expertise for your app development journey.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {benefits.map((benefit, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {topBenefits.map((benefit, index) => (
             <div key={index} className="flex flex-col items-center text-center p-8 bg-deep-space rounded-xl shadow-xl border-t border-purple-custom hover:transform hover:scale-[1.02] transition-all duration-300">
               <div className="mb-6">
                 {benefit.icon}
@@ -66,63 +68,11 @@ export default function ConsultancyBenefits() {
             </div>
           ))}
         </div>
-        
-        <div className="mt-20 p-8 bg-purple-custom/20 rounded-xl border border-purple-custom">
-          <h3 className="text-3xl font-bold mb-6 text-center text-white">When to Choose Consultancy vs. Self-Serve</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-dark-navy p-6 rounded-lg">
-              <h4 className="text-2xl font-bold mb-4 text-center text-neon-yellow">Choose Consultancy When:</h4>
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You need complex custom functionality</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You want expert input on app architecture</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>Your app requires integration with existing systems</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You prefer hands-off development with verification</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You need a long-term development partner</span>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="bg-dark-navy p-6 rounded-lg">
-              <h4 className="text-2xl font-bold mb-4 text-center text-neon-yellow">Choose Self-Serve When:</h4>
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You want to build simple apps quickly</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You prefer a hands-on approach</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>Your app needs are straightforward</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You want the lowest cost option</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-neon-yellow mr-2">✓</span>
-                  <span>You enjoy learning as you build</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+
+        <div className="mt-12 text-center">
+          <a href="#contact" className="inline-block bg-neon-yellow text-dark-navy font-bold py-3 px-8 rounded-full hover:bg-purple-custom hover:text-white transition-colors cursor-pointer">
+            Learn More About Our Approach
+          </a>
         </div>
       </div>
     </section>

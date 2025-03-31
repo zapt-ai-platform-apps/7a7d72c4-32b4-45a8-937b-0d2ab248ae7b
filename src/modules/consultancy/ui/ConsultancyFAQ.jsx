@@ -6,7 +6,8 @@ import { events } from '../events';
 import { validateFAQ } from '../validators';
 
 export default function ConsultancyFAQ() {
-  const faqsData = api.getFAQs();
+  // Get only the most important FAQs (first 3)
+  const faqsData = api.getFAQs().slice(0, 3);
   
   // Validate FAQs
   const faqs = faqsData.map(faq => {
@@ -41,8 +42,8 @@ export default function ConsultancyFAQ() {
   return (
     <section className="py-20 bg-dark-navy">
       <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-white">
-          Frequently Asked Questions
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-white">
+          Common Questions
         </h2>
         
         <div className="space-y-6">
@@ -68,6 +69,12 @@ export default function ConsultancyFAQ() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-10 text-center">
+          <a href="#contact" className="inline-block bg-transparent border-2 border-neon-yellow text-neon-yellow font-bold py-3 px-8 rounded-full hover:bg-neon-yellow hover:text-dark-navy transition-colors cursor-pointer">
+            Have More Questions? Contact Us
+          </a>
         </div>
       </div>
     </section>
