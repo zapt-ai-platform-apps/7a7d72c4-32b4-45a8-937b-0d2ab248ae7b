@@ -34,7 +34,7 @@ export default function HeroSection() {
             className="mt-4 md:mt-8 bg-transparent border-2 border-neon-yellow text-neon-yellow font-bold py-4 px-10 rounded-full hover:bg-neon-yellow hover:text-dark-navy transition-colors cursor-pointer inline-block"
             onClick={handleConsultancyClick}
           >
-            Consultancy Services
+            Guided Development
           </Link>
         </div>
       </div>
