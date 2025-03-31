@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaEdit, FaRobot, FaRocket } from 'react-icons/fa';
 import { api } from '../api';
+import HowItWorksDetails from './HowItWorksDetails';
+import HowItWorksSteps from './HowItWorksSteps';
 
 export default function HowItWorksSection() {
   const stepsData = api.getHowItWorksSteps();
@@ -31,6 +33,12 @@ export default function HowItWorksSection() {
               <p className="text-lg">{step.description}</p>
             </div>
           ))}
+        </div>
+        
+        {/* The components are now properly imported and can be used here if needed */}
+        <div className="sr-only">
+          <HowItWorksSteps />
+          <HowItWorksDetails />
         </div>
       </div>
     </section>
