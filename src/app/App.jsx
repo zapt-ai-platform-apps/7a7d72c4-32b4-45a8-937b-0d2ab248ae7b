@@ -27,7 +27,7 @@ export default function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/consultancy" element={<ConsultancyPage />} />
+          <Route path="/development" element={<ConsultancyPage />} />
         </Routes>
         <Footer />
       </div>

@@ -16,7 +16,7 @@ export const api = {
       },
       {
         text: 'Guided Development',
-        path: '/consultancy',
+        path: '/development',
         external: false
       },
       {
