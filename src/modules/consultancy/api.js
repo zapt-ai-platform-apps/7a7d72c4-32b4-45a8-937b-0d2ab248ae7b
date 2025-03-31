@@ -58,7 +58,7 @@ export const api = {
       },
       {
         question: "How long does it take to develop an app with the consultancy service?",
-        answer: "Development timelines vary based on app complexity and feature scope. With our feature-by-feature approach, you'll see functional pieces of your app delivered regularly rather than waiting for a complete build. Most features take between 1-4 weeks to develop, and you can launch with a minimal viable product once core features are complete."
+        answer: "Development timelines vary based on app complexity and feature scope. With our feature-by-feature approach, you'll see functional pieces of your app delivered regularly rather than waiting for a complete build. When doing consultancy, we try and keep the features small and regular, and you can launch with a minimal viable product once core features are complete."
       },
       {
         question: "Can I switch between self-serve and consultancy services?",
