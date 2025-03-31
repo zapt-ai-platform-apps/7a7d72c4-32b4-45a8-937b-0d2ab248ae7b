@@ -4,5 +4,6 @@
 
 export const events = {
   FORM_SUBMITTED: 'consultancy/form_submitted',
-  FAQ_EXPANDED: 'consultancy/faq_expanded'
+  FAQ_EXPANDED: 'consultancy/faq_expanded',
+  CTA_CLICKED: 'consultancy/cta_clicked'
 };
