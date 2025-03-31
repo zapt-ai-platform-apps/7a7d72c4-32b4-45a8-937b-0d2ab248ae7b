@@ -5,7 +5,7 @@
 // Data store for testimonials
 const testimonials = [
   {
-    quote: 'Zapt is brilliant! I've built business and personal apps effortlessly. Highly recommend!',
+    quote: "Zapt is brilliant! I've built business and personal apps effortlessly. Highly recommend!",
     name: 'Simon L.',
     position: 'Commercial Lawyer'
   },
