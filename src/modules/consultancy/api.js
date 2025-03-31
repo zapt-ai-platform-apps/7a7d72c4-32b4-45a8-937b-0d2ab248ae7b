@@ -49,20 +49,20 @@ export const api = {
   getFAQs() {
     return [
       {
-        question: "How much does the consultancy service cost?",
-        answer: "Our consultancy service follows a feature-by-feature pricing model rather than a fixed upfront cost. Each feature is quoted individually based on complexity and development time. This approach allows you to maintain budget control and pay only for completed work that meets your requirements."
+        question: "How much does the guided development service cost?",
+        answer: "Our guided development service follows a feature-by-feature pricing model rather than a fixed upfront cost. Each feature is quoted individually based on complexity and development time. This approach allows you to maintain budget control and pay only for completed work that meets your requirements."
       },
       {
         question: "How does the feature-by-feature process work?",
         answer: "First, we discuss your app needs and prioritize features. Then, for each feature, we provide a specific quote. Once approved, we develop that feature, you verify it meets requirements, and you pay for the completed work. This process repeats for each feature, allowing you to adjust priorities as needed."
       },
       {
-        question: "How long does it take to develop an app with the consultancy service?",
-        answer: "Development timelines vary based on app complexity and feature scope. With our feature-by-feature approach, you'll see functional pieces of your app delivered regularly rather than waiting for a complete build. When doing consultancy, we try and keep the features small and regular, and you can launch with a minimal viable product once core features are complete."
+        question: "How long does it take to develop an app with the guided development service?",
+        answer: "Development timelines vary based on app complexity and feature scope. With our feature-by-feature approach, you'll see functional pieces of your app delivered regularly rather than waiting for a complete build. When doing guided development, we try and keep the features small and regular, and you can launch with a minimal viable product once core features are complete."
       },
       {
-        question: "Can I switch between self-serve and consultancy services?",
-        answer: "Yes, many clients use a hybrid approach. You might start with consultancy for complex core features, then use the self-serve platform for simple updates. We can recommend the best approach based on your specific needs and technical comfort level."
+        question: "Can I switch between self-serve and guided development services?",
+        answer: "Yes, many clients use a hybrid approach. You might start with guided development for complex core features, then use the self-serve platform for simple updates. We can recommend the best approach based on your specific needs and technical comfort level."
       },
       {
         question: "What happens if I'm not satisfied with a developed feature?",

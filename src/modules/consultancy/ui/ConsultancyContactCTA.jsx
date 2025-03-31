@@ -81,11 +81,11 @@ export default function ConsultancyContactCTA() {
         {!submitted ? (
           <>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center text-white">
-              Start Your Consultancy Journey
+              Start Your Guided Development Journey
             </h2>
             <p className="text-xl text-center mb-12 max-w-3xl mx-auto text-light-gray">
               Fill out the form below to schedule a free consultation. We'll discuss your app idea 
-              and how our consultancy service can bring it to life.
+              and how our guided development service can bring it to life.
             </p>
             
             <div className="bg-deep-space p-8 md:p-12 rounded-xl shadow-xl border border-purple-custom max-w-3xl mx-auto">

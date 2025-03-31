@@ -32,9 +32,9 @@ export default async function handler(req, res) {
     const { data, error } = await resend.emails.send({
       from: 'ZAPT.AI <noreply@zapt.ai>',
       to: 'info@zapt.ai',
-      subject: `Consultancy Request from ${name}`,
+      subject: `Guided Development Request from ${name}`,
       html: `
-        <h2>New Consultancy Request</h2>
+        <h2>New Guided Development Request</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Company:</strong> ${company || 'Not provided'}</p>

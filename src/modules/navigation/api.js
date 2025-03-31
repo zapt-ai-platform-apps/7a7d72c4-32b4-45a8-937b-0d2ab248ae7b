@@ -15,7 +15,7 @@ export const api = {
         external: false
       },
       {
-        text: 'Consultancy',
+        text: 'Guided Development',
         path: '/consultancy',
         external: false
       },

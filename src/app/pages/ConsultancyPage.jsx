@@ -9,7 +9,7 @@ import { coreApi } from '@/modules/index';
 export default function ConsultancyPage() {
   useEffect(() => {
     // Track page view
-    coreApi.trackPageView('consultancy');
+    coreApi.trackPageView('guided_development');
   }, []);
 
   return (

@@ -21,7 +21,7 @@ export default function ConsultancyHero() {
     <div className="relative pt-20 pb-32 bg-gradient-to-b from-dark-navy to-charcoal-gray">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-8 text-white">
-          Hand-Held App Development
+          Guided App Development
         </h1>
         <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-light-gray">
           Our expert team guides you through every step of building your custom app with a transparent, 

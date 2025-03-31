@@ -51,10 +51,10 @@ export default function ConsultancyBenefits() {
     <section className="py-20 bg-gradient-to-b from-charcoal-gray to-dark-navy">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center text-white">
-          Why Choose Our Consultancy
+          Why Choose Guided Development
         </h2>
         <p className="text-xl text-center mb-12 max-w-3xl mx-auto text-light-gray">
-          Our consultancy service provides expert guidance and technical expertise for your app development journey.
+          Our guided development service provides expert guidance and technical expertise for your app development journey.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
