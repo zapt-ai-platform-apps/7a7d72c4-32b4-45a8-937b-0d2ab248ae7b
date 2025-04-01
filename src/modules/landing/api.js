@@ -49,9 +49,9 @@ export const api = {
   getFeaturedApps() {
     return [
       {
-        name: 'StatusPros',
-        description: 'Professional Availability Made Simple',
-        url: 'https://statuspros.zapt.app'
+        name: 'Risk Assist',
+        description: 'AI-driven platform for risk identification and mitigation',
+        url: 'https://riskassist.org/'
       },
       {
         name: 'Parking Disputer',
@@ -74,9 +74,9 @@ export const api = {
         url: 'https://construct-career.zapt.app/'
       },
       {
-        name: 'Risk Assist',
-        description: 'AI-driven platform for risk identification and mitigation',
-        url: 'https://riskassist.org/'
+        name: 'StatusPros',
+        description: 'Professional Availability Made Simple',
+        url: 'https://statuspros.zapt.app'
       }
     ];
   },
