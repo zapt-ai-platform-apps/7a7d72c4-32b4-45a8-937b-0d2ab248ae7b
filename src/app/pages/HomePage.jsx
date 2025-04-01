@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import HeroSection from '@/modules/landing/ui/HeroSection';
+import VideoSection from '@/modules/landing/ui/VideoSection';
 import SummarySection from '@/modules/landing/ui/SummarySection';
 import FeaturesSection from '@/modules/landing/ui/FeaturesSection';
 import HowItWorksSection from '@/modules/landing/ui/HowItWorksSection';
@@ -17,6 +18,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
+      <VideoSection />
       <SummarySection />
       <FeaturesSection />
       <HowItWorksSection />
