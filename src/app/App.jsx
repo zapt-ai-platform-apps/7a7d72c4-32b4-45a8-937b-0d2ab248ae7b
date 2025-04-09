@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ConsultancyPage from './pages/ConsultancyPage';
+import PolicyPage from './pages/PolicyPage';
 import Navigation from '@/modules/navigation/ui/Navigation';
 import Footer from '@/modules/footer/ui/Footer';
 import { initializeModules } from '@/modules/index';
@@ -28,6 +29,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/development" element={<ConsultancyPage />} />
+          <Route path="/usage-based-cost-recovery-policy" element={<PolicyPage />} />
         </Routes>
         <Footer />
       </div>
